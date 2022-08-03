@@ -1,7 +1,7 @@
 # Audio_Processing_DNN-CPP-COP290
  Implemented a deep neural network in C++ that finds the top 3 most probable words that each of the 1 second audio clips (as [1x250] input matrix) classifies to from the following 12 audio keywords (silence, unknown, yes, no, up, down, left, right, on, off, stop, go)
 
-#### Tar file consists of::
+## Tar file consists of::
 * main.cpp
 * libaudio.so
 * audio.cpp
@@ -10,15 +10,15 @@
 * makefile
 * readme.md
 
-main() function cpp file:
- ##### main.cpp
+### main() function cpp file:
+>main.cpp
 
-Shared library:
- ##### libaudio.so
+### Shared library:
+>libaudio.so
 
-#### *Instructions to Run::*
+## *Instructions to Run::*
 
-##### Command sequence in terminal:
+### Command sequence in terminal:
 * export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH
 * make
 * ./yourcode.out audiosamplefile outputfile
